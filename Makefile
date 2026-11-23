@@ -16,7 +16,7 @@ RELEASE_FLAGS = -O2
 
 BUILD_DIR = build
 
-# LD_FLAGS := -l
+LD_FLAGS := -ldl -lm ../base64/lib/libbase64.o
 
 #####################
 #					#
